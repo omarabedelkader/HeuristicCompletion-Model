@@ -1,4 +1,4 @@
-# ComplishonPlus
+# HeuristicCompletion-Model
 
 ```smalltalk
 
