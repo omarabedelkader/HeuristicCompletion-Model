@@ -1,0 +1,9 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'ExtendedHeuristicCompletionModel',
+      #directory : 'src',
+      #platforms : [ #pharo ]
+    }
+  ]
+}
