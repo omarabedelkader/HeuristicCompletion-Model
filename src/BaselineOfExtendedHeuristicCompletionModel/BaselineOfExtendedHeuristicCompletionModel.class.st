@@ -12,10 +12,10 @@ BaselineOfExtendedHeuristicCompletionModel >> baseline: spec [
 	spec for: #common do: [
 		spec
     		baseline: 'ExtendedHeuristicCompletionBenchmarks'
-			with: [ spec repository: 'github://omarabedelkader/HeuristicCompletion-Benchmarks' ];
+			with: [ spec repository: 'github://omarabedelkader/HeuristicCompletion-Benchmarks:main' ];
 		   baseline: 'ExtendedHeuristicCompletionDependency'
-			with: [ spec repository: 'github://omarabedelkader/HeuristicCompletion-Dependency' ];	
+			with: [ spec repository: 'github://omarabedelkader/HeuristicCompletion-Dependency:main' ];	
 			baseline: 'ExtendedHeuristicCompletionHistory'
-			with: [ spec repository: 'github://omarabedelkader/HeuristicCompletion-History' ].
+			with: [ spec repository: 'github://omarabedelkader/HeuristicCompletion-History:main' ].
 	]
 ]
